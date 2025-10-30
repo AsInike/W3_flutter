@@ -11,9 +11,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        backgroundColor: const Color.fromARGB(255, 230, 240, 255),
-        body: Center(
+      home: Container(
+        padding: const EdgeInsets.all(40),
+        child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: const [
